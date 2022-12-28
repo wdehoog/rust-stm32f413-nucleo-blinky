@@ -6,14 +6,14 @@ Small project example to be used as template for embedded software in Rust on th
 
 It is a modified version of the project https://github.com/aholzbaur/rust-stm32f4-disco-blinky.
 
-The board: https://www.st.com/en/evaluation-tools/nucleo-f413zh.html
+The hardware: https://www.st.com/en/evaluation-tools/nucleo-f413zh.html
 
 ### Application
 A timer interrupt is used to let the green, red and blue user leds blink.
 
 
 ### Rust
-On windows 10 I :
+On windows 10 I did:
 * download and execute rustup-init.exe
 * cargo install cargo-binutils
 * rustup component add llvm-tools-preview
